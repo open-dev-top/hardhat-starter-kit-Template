@@ -1,3 +1,17 @@
+```shell
+yarn
+
+yarn hardhat test
+
+yarn hardhat node
+
+hh console --network localhost
+
+yarn hardhat deploy --tags feed --network sepolia
+yarn hardhat run scripts/deployment/deployPriceConsumerV3.js --network sepolia
+
+```
+
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
